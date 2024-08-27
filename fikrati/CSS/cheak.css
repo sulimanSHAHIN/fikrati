@@ -1,0 +1,206 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.Container{
+    padding-left: 15px;
+    direction: rtl;
+
+    padding-right:15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 8rem;
+}
+/* small screen */
+@media(min-width:768px){
+    .Container{
+        width:750px ;
+     }
+}
+/* medium */
+@media(min-width:992px){
+   .Container{
+       width:970px ;
+    }
+}
+/* large */
+@media(min-width:1200px){
+    .Container{
+       width:1170px ;
+    }
+}
+/* End Global rules*/
+.Container{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Full{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 60vh;
+    background-color: #eee;
+    padding: 20px;
+    padding-bottom: 5rem;
+    box-shadow: 0px 2px 15px rgb(0 0 0 /20%);
+    margin-top: 4rem;
+    border-radius: 10px;
+}
+@media(max-width:767px){
+    .Full{
+        margin-left: 1.5rem;
+    }
+}
+.Root .Login .Lab{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-right: 0.3rem;
+    display: block;
+}
+@media(max-width:767px){
+    .Root .Login .Lab{
+        margin-top: 2rem;
+    }
+}
+.Root .Login .Lab1{
+    text-align: center;
+    color: #1e2754;
+    position: relative;
+    font-size: 2rem;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 4px;
+}
+.Root .Login p{
+    margin: 40px 0;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.5;
+    color: black;
+}
+.Root .Login p span{
+    font-weight: bold;
+    color: black;
+}
+.Root .Login .Holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+    direction: ltr;
+}
+.Root .Login .Holder .Code{
+    caret-color: transparent;
+    border-radius: 10px;
+    width: 75px;
+    height: 80px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    font-size: 30px;
+    font-weight: 300;
+}
+.Root .Login .Holder .Code:focus{
+    outline-color: #ff8600;
+}
+@media(max-width:767px){
+    .Root .Login .Holder{
+        flex-wrap: wrap;
+    }
+    .Root .Login .Holder .Code{
+        height: 50px;
+        max-width: 33px;
+        margin: 1px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+}
+.Code::-webkit-outer-spin-button,
+.Code::-webkit-inner-spin-button{
+  appearance: none;
+}
+.Code:valid{
+   border-color: #9861c2;
+   box-shadow: 0 10px 10px -5px rgb(0 0 0 /0.25);
+}
+.Root .Login .Sign{
+   position: relative;
+}
+.Root .Login a{
+    display: block;
+    border: 3px solid #ff8600;
+    width: fit-content;
+    padding: 10px 6px;
+    font-size: 23px;
+    font-weight: bold;
+    transition: var(--main-transition);
+    border-radius: 6px;
+    color: #ff8600;
+    position: absolute;
+    left: 50%;
+    top: -12px;
+    transform: translateX(-50%);
+}
+.Root .Login a:hover{
+    background-color: #ff8600;
+    color: white;
+ }
+@media(max-width:600px){
+   .Full{
+      height: 75vh;
+   }
+}
+
+@media(max-width:767px){
+    
+    .Root .Full .Image img{
+        display: none;
+    }
+    .Root .Login .Regis{
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

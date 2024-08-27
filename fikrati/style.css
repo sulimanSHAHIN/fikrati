@@ -1,0 +1,302 @@
+body{
+margin: 0px ;
+}
+.Navbar{
+    background-color:#6F3A6F;
+    direction: rtl;
+    height: 5rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    align-items: center;
+}
+.Navbar-element{
+    list-style: none;
+    direction: rtl;
+    justify-content: center;
+    height: 2rem;
+}
+.Navbar-element li{
+    color: white;
+    margin: 0 3rem;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    width: 9rem;
+    height: 3rem;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Navbar-element li:hover{
+     border: 1px white solid;
+     background-color: #ad49ad;
+     cursor: pointer;
+}
+.First-container{
+    text-align: center;
+    direction: rtl;
+}
+.First-left-container{
+    width: 50%;
+    margin-right: 25%;
+
+}
+.Document{
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 600;
+    font-family: system-ui;
+    margin-top: 2rem;
+}
+.Start-button{
+    background-color: #ff8600;
+    width: fit-content;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: white;
+    border-radius: 3rem;
+    letter-spacing: .15rem;
+    padding: 0.7rem 2rem;
+    margin: 1rem 3rem;
+    cursor: pointer;
+}
+.Fikrati-logo{
+    text-align: center;
+    margin-top: 6rem;
+}
+.Logo{
+    width: 23rem;
+}
+.Benefits{
+    margin-top: 2rem;
+    justify-content: space-evenly;
+}
+.Benefits-element{
+    width: 15rem;
+    border: #1e2754 solid 0.7px;
+    margin: 0rem 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.Benefit-title{
+    text-align: center;
+    color: rgb(30 39 84);
+    font-size: 1.3rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+.Benefit-text{
+    word-spacing: 0.4rem;
+    text-align: center;
+    font-size: 1rem;
+}
+.Third-container{
+    direction: rtl;
+    margin-top: 2rem;
+    margin-right:3rem;
+    padding-bottom: 4rem;
+}
+.Third-con-title{
+    /* text-align: center; */
+    color: black;
+    font-size: 1.7rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+.Video-title{
+    color: #1e2754;
+    font-size: 1.3rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+.Videos{
+    justify-content: space-between;
+    width: 80%;
+    position: relative;
+    right: 11%;
+    border-radius:2rem ;
+    overflow-x: scroll;
+    padding: 2rem;
+    background-color: #eee;
+    box-shadow:0px 2px 15px rgba(0 0 0 /20% );
+    margin-top: 1rem;
+    
+}
+.Video-photo{
+    background-image: url(./Fikratk.png);
+    width: 13rem;
+    height: 11rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2rem;
+    direction: ltr;
+    
+}
+.One-video{
+    border: 1px solid black;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+.Video-name{
+    color:  rgb(30 39 84);
+    font-size: 1.3rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+.Photo-hash{
+    width: 24%;
+    height: 137%;
+    background-color: black;
+    opacity: .6;
+    margin-top: -2rem;
+    border-radius: 1rem 0 0 1rem;
+}
+.Video-nom{
+    color: white;
+    font-size: 1.4rem;
+    border-bottom: 1px solid white;
+    text-align: center;
+    transform: translateY(.6rem);
+    padding-bottom: .5rem;
+}
+@media (max-width:1350px) and (min-width:950px){
+.Navbar-element li{
+    margin: 0 2rem;
+    width: 7.5rem;
+    }
+}
+@media (max-width:949px) and (min-width:813px){
+    .Navbar-element li{
+    margin: 0 2rem;
+    width: 6rem;
+    font-size: 1rem;
+    text-align: center;
+    }
+    .Benefits-element{
+        margin :0 1rem;
+    }
+    .Videos {
+        width: 95%;
+        position: relative;
+        right: 0;
+        padding: 2rem;
+    }
+}
+@media (max-width:812px) and (min-width:620px){
+    .Navbar{
+        height: 8rem;
+        align-items: normal;
+    }
+    .Navbar-element li{
+        margin: 0 2rem;
+        width: 7rem;
+        font-size: 1rem;
+    }
+    .Navbar-element{
+        flex-wrap: wrap;
+        margin-top: 1rem;
+
+    }
+    .Benefits-element{
+        margin :1rem 1rem;
+    }
+    .Benefits{
+        flex-wrap: wrap;
+    }
+    .Videos {
+        width: 100%;
+        right: -1.5rem;
+    }
+    .Fikrati-logo{
+        margin-top: 10rem;
+    }
+    .Start-button {
+    margin: 1rem -8rem;
+    }
+}
+@media (max-width:619px) and (min-width:443px){
+     .Navbar{
+        height: 11rem;
+        align-items: normal;
+    }
+    .Navbar-element li{
+        margin: 0 2rem;
+        width: 7rem;
+        font-size: .9rem;
+    }
+    .Navbar-element{
+        flex-wrap: wrap;
+        margin-top: 1rem;
+
+    }
+    .Benefits-element{
+        margin :1rem 1rem;
+    }
+    .Benefits{
+        flex-wrap: wrap;
+    }
+    .Videos {
+        width: 100%;
+        position: relative;
+        right: -1.5rem;
+        padding: 1rem;
+    }
+    .Fikrati-logo{
+        margin-top: 13rem;
+    }
+    .Start-button {
+    margin: 1rem 3rem;
+    }
+    .First-left-container {
+    width: 100%;
+    margin-right: 0%;
+}
+
+}
+@media (max-width:442px){
+     .Navbar{
+        height: 16rem;
+        align-items: normal;
+    }
+    .Navbar-element li{
+        margin: 0 2rem;
+        width: 7rem;
+        font-size: .9rem;
+    }
+    .Navbar-element{
+        flex-wrap: wrap;
+        margin-top: 1rem;
+
+    }
+    .Benefits-element{
+        margin :1rem 1rem;
+    }
+    .Benefits{
+        flex-wrap: wrap;
+    }
+    .Videos {
+        width: 100%;
+        position: relative;
+        right: -1.5rem;
+        padding: 1rem;
+    }
+    .Fikrati-logo{
+        margin-top: 17rem;
+    }
+    .Start-button {
+    margin: 1rem 3rem;
+    }
+    .First-left-container {
+    width: 100%;
+    margin-right: 0%;
+}
+.Logo {
+    width: 20rem;
+}
+}

@@ -1,0 +1,193 @@
+body{
+    box-sizing: border-box;
+    direction: rtl;
+    font-family: 'Work Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.Container{
+    padding-left: 15px;
+    padding-right:15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* small screen */
+@media(min-width:768px){
+    .Container{
+        width:750px ;
+     }
+}
+/* medium */
+@media(min-width:992px){
+   .Container{
+       width:970px ;
+    }
+}
+/* large */
+@media(min-width:1200px){
+    .Container{
+       width:1170px ;
+    }
+}
+/* End Global rules*/
+
+/* Start Css */
+.Container{
+    background-color: #eee;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 2px 15px rgb(0 0 0 /20%);
+}
+.Title{
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 0;
+}
+.Container .Head{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3rem;
+    gap: 40px;
+}
+.Container .Content{
+    position: relative;
+}
+.Container .Head img{
+    max-width: 560px;
+    height: 600px;
+    margin-left: 2rem;
+    border-radius: 10px;
+}
+@media(max-width:767px){
+    .Container .Head{
+        flex-direction: column-reverse;
+    }
+    .Axes .Save a{
+        font-size: 1.3rem !important;
+    }
+    .Axes .Save h3{
+        font-size: 1.5rem !important;
+    }
+    .Axes{
+        margin: 20px 0px !important;
+    }
+}
+@media(max-width:992px){
+    .Container .Head img{
+        max-width: 300px;
+        height: 300px;
+    }
+    .Container .Content{
+        margin: 0 auto;
+    }
+    .Container .Head img{
+        margin: 0 auto;
+    }
+}
+.Container .Holder{
+    border-radius: 10px;
+    background-color: white;
+    min-width: 22rem;
+    height: fit-content;
+    padding: 19px;
+    border: 1px solid #ff8600;
+}
+.Container .Holder h3{
+   font-size: 2rem;
+   text-align: center;
+   margin-bottom: 13px;
+   color: #ff8600;
+}
+.Container .Holder .Time{
+    font-size: 1.5rem;
+}
+.Container .Holder .Time div{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    font-weight: bold;
+}
+.Container .Holder .Time div:last-of-type{
+    line-height: 1.5;
+    padding-bottom: 0;
+}
+.Container .Holder .Time div:not(:last-of-type){
+    border-bottom: 1px solid #ccc;
+}
+.Container .Holder .Time div span{
+   color: #ff8600;
+   font-weight: bold;
+}
+.Container .Holder a{
+    display: flex;
+    justify-content: flex-end;
+    width: fit-content;
+    margin-right: auto;
+    padding: 15px 50px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff8600;
+    background-color: white;
+    border: 3px solid #ff8600;
+    margin-top: 10px;
+}
+.Container .Holder a:hover{
+    color: white;
+    background-color: #ff8600;
+}
+.Container .Content .Skill{
+    display: flex;
+    justify-content: center;
+    padding: 17px;
+    font-size: 1.2rem;
+}
+/* .Time div{
+    border-bottom:1px solid #ccc;
+} */
+.Axes{
+    background-color: #fff;
+    margin: 20px 30px;
+    padding: 2px 14px 55px 10px;
+    border-radius: 5rem;
+}
+.Axes .Save h3{
+    font-size: 3rem;
+    color: #ff8600;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.Axes .Save p{
+    font-size: 2rem;
+    color: white;
+}
+.Axes .Save a{
+    position: relative;
+    display: block;
+    color: #1e2754;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 20px;
+    margin: 0 10px 10px;
+    transition: 0.3s;
+}
+.Axes .Save div{
+    position: relative;
+    padding-top: 10px;
+}
+.Axes .Save div::before{
+   content: "";
+   position: absolute;
+   background-color: black;
+   width: 100%;
+   height: 1px;
+   bottom: 0;
+   left: 0;
+}
+.Axes .Save a:hover{
+    transform: translateX(-30px);
+    color: #ff8600;
+}
+/* End Css */

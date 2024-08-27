@@ -1,0 +1,112 @@
+.Footer-container{
+    background-color: #222;
+    padding: 2rem;
+    color: white;
+    padding-bottom: 2rem;
+}
+.First-footer-container{
+    width: 33%;
+}
+.Second-footer-container{
+    width: 33%;
+}
+.Third-footer-container{
+    width: 34%;
+}
+.Company-name{
+    font-size: 1.3rem;
+    letter-spacing: .1rem;
+}
+.Tec{
+    color: #ff8600;
+}
+.Footer-navbar{
+    margin-top: 1rem;
+}
+.Footer-navbar div{
+    margin-right: .4rem;
+    font-size: 1rem;
+}
+.Footer-navbar .Footer-navbar-element:hover{
+    color: rgb(53, 66, 128);
+}
+.CopyRight{
+    margin-top: 1rem;
+    letter-spacing: .1rem;
+    font-family: 'Cairo', sans-serif;
+}
+.Footer-phone-icon,.Footer-email-icon{
+    background-color: #5b5757;
+    border-radius: 20rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Footer-phone-icon i,.Footer-email-icon i{
+    font-size: 1.1rem;
+}
+.Footer-emailNicon{
+    margin-top: 1rem;
+}
+.Footer-email,.Footer-number{
+    margin-left: .5rem;
+}
+.Third-footer-title{
+    font-size: 1.3rem;
+    font-family: 'Oswald',sans-serif;
+    letter-spacing: .1rem;
+}
+.Third-footer-document{
+    font-size: 1rem;
+    color: #a7a3a3;
+}
+.Footer-Socialmedia-link{
+    margin-top: 1rem;
+}
+.Footer-Socialmedia-link div{
+    margin-right: 2rem;
+    background-color: #5b5757;
+    width: 3.5rem;
+    height: 2.5rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 20rem;
+    transition: .3s;
+}
+.Footer-Socialmedia-link div i{
+    font-size: 1.1rem;
+}
+.Footer-Socialmedia-link div:hover{
+    background-color: rgb(53, 66, 128);;
+    transform: translateY(-10px);
+    color: white;
+}
+@media (max-width:1250px)and (min-width:935px){
+    .First-footer-container{
+        width: 45%;
+    }
+    .Second-footer-container{
+        width: 21%;
+    }
+}
+@media (max-width:934px){
+     .First-footer-container{
+        width: 100%;
+        margin-top: 2rem;
+
+    }
+    .Second-footer-container{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .Third-footer-container{
+        width: 100%;
+    }
+    .Footer-container{
+        flex-direction: column-reverse;
+    }
+}
